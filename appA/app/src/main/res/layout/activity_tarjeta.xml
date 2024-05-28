@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tarjeta">
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="20dp"
+        android:translationY="20dp"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="505dp"
+        android:layout_height="246dp"
+        android:layout_gravity="center"
+        android:translationY="40dp"
+        app:srcCompat="@drawable/tarjetabarra"
+        tools:layout_editor_absoluteX="-47dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/codigoBarras"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxxxxxxx"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="@color/black"
+        android:textSize="30dp"
+        android:translationX="143dp"
+        android:translationY="-25dp" />
+
+    <TextView
+        android:id="@+id/puntosCliente"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textColorHighlight="#151414"
+        android:textColorHint="#121111"
+        android:textColorLink="#0C0C0C"
+        android:textSize="25dp"
+        android:translationX="310dp"
+        android:translationY="-151dp" />
+
+</LinearLayout>

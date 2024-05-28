@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Inciador">
+
+    <TextView
+        android:id="@+id/nombreCliente"
+        android:layout_width="245dp"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        android:text="𝓗𝓸𝓵𝓪 "
+        android:textSize="25dp"
+        android:translationX="20dp"
+        android:translationY="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/puntos"
+        android:layout_width="121dp"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="35dp"
+        android:translationX="20dp"
+        android:translationY="250dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/dinero"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="35dp"
+        android:translationX="260dp"
+        android:translationY="198dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+
+    <TextView
+        android:id="@+id/puntosClientes"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:text="𝓟𝓾𝓷𝓽𝓸𝓼"
+        android:textSize="25dp"
+        android:translationX="280dp"
+        android:translationY="-140dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="𝑻𝑼𝑺 𝑷𝑼𝑵𝑻𝑶𝑺 𝑽𝑨𝑳𝑬𝑵 𝑫𝑰𝑵𝑬𝑹𝑶"
+        android:textSize="25dp"
+        android:translationX="1dp"
+        android:translationY="-80dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="128dp"
+        android:layout_height="88dp"
+        android:translationX="20dp"
+        android:translationY="-50dp"
+        app:srcCompat="@drawable/monedaselectronicio" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:translationX="180dp"
+        android:translationY="-110dp"
+        app:srcCompat="@drawable/signoigual" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="115dp"
+        android:layout_height="85dp"
+        android:translationX="260dp"
+        android:translationY="-185dp"
+        app:srcCompat="@drawable/monedapeso" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="¿𝑸𝒖é 𝒅𝒆𝒔𝒆𝒂𝒔 𝒉𝒂𝒄𝒆𝒓 𝒉𝒐𝒚? "
+        android:textSize="30dp"
+        android:translationY="-80dp" />
+
+    <ImageButton
+        android:id="@+id/imageLocalizacion"
+        android:layout_width="117dp"
+        android:layout_height="103dp"
+        android:translationX="50dp"
+        android:translationY="-60dp"
+        app:srcCompat="@drawable/localiza" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝑳𝒐𝒄𝒂𝒍í𝒛𝒂𝒏𝒐𝒔"
+        android:textSize="25dp"
+        android:translationX="55dp"
+        android:translationY="-70dp" />
+
+    <ImageButton
+        android:id="@+id/imageCupones"
+        android:layout_width="113dp"
+        android:layout_height="87dp"
+        android:translationX="230dp"
+        android:translationY="-190dp"
+        app:srcCompat="@drawable/cupones" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="𝑪𝒖𝒑𝒐𝒏𝒆𝒔 "
+        android:textSize="25dp"
+        android:translationX="240dp"
+        android:translationY="-190dp" />
+
+    <ImageButton
+        android:id="@+id/botonajustes1"
+        android:layout_width="138dp"
+        android:layout_height="111dp"
+        android:translationY="-110dp"
+        app:srcCompat="@drawable/ajustes" />
+
+    <ImageButton
+        android:id="@+id/botontarjeta1"
+        android:layout_width="131dp"
+        android:layout_height="111dp"
+        android:translationX="130dp"
+        android:translationY="-220dp"
+        app:srcCompat="@drawable/tarjeta" />
+
+    <ImageButton
+        android:id="@+id/imageView11"
+        android:layout_width="176dp"
+        android:layout_height="111dp"
+        android:translationX="240dp"
+        android:translationY="-330dp"
+        app:srcCompat="@drawable/productos" />
+
+
+</LinearLayout>

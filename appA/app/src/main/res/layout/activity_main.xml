@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:text="𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐"
+        android:textSize="50dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="𝑴𝒊 𝑨𝒈𝒖𝒂 𝑹𝒆𝒔𝒆𝒓𝒗𝒂"
+        android:textSize="45dp"
+        android:translationY="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:text="𝑷𝒖𝒏𝒕𝒐𝒔"
+        android:textSize="45dp"
+        android:translationY="10dp" />
+
+
+    <Button
+        android:id="@+id/buttonIniciar"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:text="𝑰𝒏𝒊𝒄𝒊𝒂𝒓 𝒔𝒆𝒔𝒊ó𝒏"
+        android:translationY="10dp" />
+
+    <TextView
+        android:id="@+id/retristrar_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="¿𝑨𝒖𝒏 𝒏𝒐 𝒕𝒊𝒆𝒏𝒆𝒔 𝒄𝒖𝒆𝒏𝒕𝒂?"
+        android:textSize="30sp"
+        android:translationY="10dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logoaguareserva"
+        android:translationY="50dp" />
+
+
+
+</LinearLayout>
+

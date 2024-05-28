@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Terminosycondiciones">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:translationX="20dp"
+        android:translationY="20dp"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="𝑻é𝒓𝒎𝒊𝒏𝒐𝒔 𝒚 𝑪𝒐𝒏𝒅𝒊𝒄𝒊𝒐𝒏𝒆𝒔 - 𝑴𝒊 𝑨𝒈𝒖𝒂 𝑹𝒆𝒔𝒆𝒓𝒗𝒂 𝑷𝒖𝒏𝒕𝒐𝒔"
+        android:textSize="25dp"
+        android:translationY="40dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="369dp"
+        android:layout_height="552dp"
+        android:layout_gravity="center"
+        android:text="1. Uso de la Aplicación Al utilizar la aplicación &quot;Mi Agua Reserva Puntos&quot;, aceptas cumplir con estos términos y condiciones y todas las leyes y regulaciones aplicables. La aplicación está destinada únicamente para uso personal y no comercial.
+        2. Registro de Cuenta Para acceder a todas las funciones de la aplicación, puede que necesites registrarte y crear una cuenta. Es tu responsabilidad proporcionar información precisa y completa durante el proceso de registro.
+        3. Programa de Puntos La aplicación puede incluir un programa de puntos para recompensar la lealtad de los usuarios. Al participar en este programa, aceptas cumplir con los términos y condiciones específicos establecidos para el mismo.
+        4. Responsabilidad Hacemos todo lo posible por garantizar que la información proporcionada en la aplicación sea precisa y actualizada. Sin embargo, no nos hacemos responsables de cualquier pérdida o daño que pueda surgir del uso de la aplicación.
+        5. Modificaciones Nos reservamos el derecho de modificar o actualizar estos términos y condiciones en cualquier momento. Se te notificarán los cambios importantes a través de la aplicación o por otros medios apropiados. El uso continuado de la aplicación después de dichos cambios constituirá tu aceptación de los mismos.
+        6. Ley Aplicable Estos términos y condiciones se rigen por las leyes del lugar donde está registrada la empresa desarrolladora de la aplicación.
+        7. Contacto Si tienes alguna pregunta o inquietud sobre estos términos y condiciones, no dudes en ponerte en contacto con nosotros a través de [correo electrónico de contacto]. Al utilizar la aplicación &quot;Mi Agua Reserva Puntos&quot;, confirmas que has leído, entendido y aceptado estos términos y condiciones."
+
+        android:translationY="60dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="155dp" />
+</LinearLayout>

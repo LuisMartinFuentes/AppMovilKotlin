@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:text="𝑰𝒏𝒊𝒄𝒊𝒐 𝒅𝒆 𝒔𝒆𝒔𝒊𝒐𝒏"
+        android:textSize="50dp"
+        android:translationY="40dp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝑵𝒖𝒎𝒆𝒓𝒐 𝒅𝒆 𝑪𝒆𝒍𝒖𝒍𝒂𝒓"
+        android:textSize="20dp"
+        android:translationY="70dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:translationY="75dp" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝑰𝒏𝒔𝒆𝒓𝒕𝒆 𝒔𝒖 𝒄𝒐𝒏𝒕𝒓𝒂𝒔𝒆ñ𝒂 "
+        android:textSize="20dp"
+        android:translationY="100dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="385dp"
+        android:layout_height="56dp"
+        android:inputType="textPassword"
+        android:translationY="100dp" />
+
+
+    <Button
+        android:id="@+id/buttoniniciariniciador"
+        android:layout_width="167dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:text="𝑰𝒏𝒊𝒄𝒊𝒂𝒓"
+        android:translationY="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="228dp"
+        android:layout_gravity="center"
+        android:translationY="200dp"
+        app:srcCompat="@drawable/logoaguareserva" />
+
+
+
+
+</LinearLayout>

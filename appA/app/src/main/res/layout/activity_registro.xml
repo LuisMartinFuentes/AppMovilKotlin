@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+
+    tools:context=".Registro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:text="𝑹𝒆𝒈𝒊𝒔𝒕𝒓𝒐 𝒅𝒆 𝒖𝒔𝒖𝒂𝒓𝒊𝒐  "
+        android:textSize="45sp"
+        android:translationY="30dp" />
+
+    <EditText
+        android:id="@+id/registronombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre completo"
+        android:inputType="text"
+        android:translationY="30dp" />
+
+    <EditText
+        android:id="@+id/registrotelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero de Telefono"
+        android:inputType="number"
+        android:translationY="40dp" />
+
+    <EditText
+        android:id="@+id/registrocontrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inserte su contraseña"
+        android:inputType="textPassword"
+        android:translationY="50dp" />
+
+    <Button
+        android:id="@+id/aceptarregistro"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="𝑨𝒄𝒆𝒑𝒕𝒂𝒓"
+        android:textSize="20dp"
+        android:translationY="95dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="180dp"
+        app:srcCompat="@drawable/logoaguareserva" />
+
+</LinearLayout>

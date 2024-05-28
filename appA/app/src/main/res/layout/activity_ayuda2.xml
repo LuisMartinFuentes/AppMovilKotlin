@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ayuda2">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="95dp"
+        android:layout_height="49dp"
+        android:translationX="20dp"
+        android:translationY="20dp"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝑨𝒚𝒖𝒅𝒂 - 𝑴𝒊 𝑨𝒈𝒖𝒂 𝑹𝒆𝒔𝒆𝒓𝒗𝒂 𝑷𝒖𝒏𝒕𝒐𝒔"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:translationY="40dp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="355dp"
+        android:layout_height="568dp"
+        android:layout_gravity="center"
+        android:text="¡Bienvenido/a al centro de ayuda de &quot;Mi Agua Reserva Puntos&quot;!  Preguntas Frecuentes (FAQ) Aquí encontrarás respuestas a las preguntas más comunes que nuestros usuarios suelen tener sobre la aplicación y su funcionamiento.  Tutoriales Paso a Paso Consulta nuestras guías detalladas para aprender a utilizar todas las funciones de la aplicación y aprovechar al máximo tu experiencia.  Contacto de Atención al Cliente Para cualquier pregunta, problema o comentario, no dudes en ponerte en contacto con nuestro equipo de atención al cliente. Puedes enviarnos un correo electrónico a MiAguaReserva@gmail.com o llamar al 12345678.  Política de Privacidad y Términos de Servicio Consulta nuestra política de privacidad y nuestros términos de servicio para comprender cómo se manejan tus datos y cuáles son las reglas de uso de la aplicación.  Actualizaciones y Novedades Mantente al día con las últimas actualizaciones de la aplicación y descubre nuevas funciones y mejoras.  Solución de Problemas Si estás experimentando algún problema con la aplicación, consulta nuestra lista de problemas comunes y sus soluciones correspondientes para obtener ayuda rápida.  Comunidad de Usuarios Únete a nuestra comunidad activa de usuarios en redes sociales y foros, donde puedes interactuar con otros usuarios, hacer preguntas y compartir consejos.  Comentarios y Sugerencias Valoramos tus comentarios. Si tienes alguna sugerencia para mejorar la aplicación, no dudes en hacérnoslo saber a través de nuestro formulario de comentarios.  Gracias por elegir &quot;Mi Agua Reserva Puntos&quot;. Estamos aquí para ayudarte en cualquier momento."
+        android:translationY="60dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+</LinearLayout>
